@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.money-details-item {
+  list-style: none;
+  width: 100%;
+  border: 2px solid;
+  margin: 10px 0;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 30px 20px;
+}
+.money-details-img {
+  width: 60px;
+  height: 60px;
+}
+.details-text-box {
+  padding-left: 20px;
+  color: #1e293b;
+}
+.money-title {
+  font-size: 14px;
+}
+.amount {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.your-balance {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+.your-income {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+.your-expenses {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+
+@media screen and (min-width: 768px) {
+  .money-details-item {
+    margin: 10px;
+  }
+}

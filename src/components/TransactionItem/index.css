@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.history-list {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  border-bottom: 2px solid #cbd5e1;
+}
+.history-list > p {
+  width: 100%;
+  min-width: 50px;
+  font-size: 14px;
+  color: #7e858e;
+}
+.delete-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.delete-img {
+  width: 20px;
+}
